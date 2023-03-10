@@ -1,19 +1,16 @@
+name: 'Test Report'
 on:
-  pull_request:
-  push:
+  workflow_run:
+    workflows: ['CI']                     # runs after CI workflow
+    types:
+      - completed
 jobs:
-  build-test:
-    name: Build & Test
+  report:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2     # checkout the repo
-      - run: npm ci                   # install packages
-      - run: npm test                 # run tests (configured to use jest-junit reporter)
-
-      - name: Test Report
-        uses: dorny/test-reporter@v1
-        if: success() || failure()    # run this step even if previous step failed
-        with:
-          name: Mocha Tests            # Name of the check run which will be created
-          path: reports/mocha-*.xml    # Path to test results
-          reporter: mocha-json        # Format of test results
+    - uses: dorny/test-reporter@v1
+      with:
+        artifact: test-results            # artifact name
+        name: Mocha Tests                  # Name of the check run which will be created
+        path: '*.json'                     # Path to test results (inside artifact .zip)
+        reporter: mocha-json              # Format of test results
