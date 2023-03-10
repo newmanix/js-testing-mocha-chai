@@ -1,0 +1,180 @@
+Calculator loaded
+{
+  "stats": {
+    "suites": 1,
+    "tests": 8,
+    "passes": 4,
+    "pending": 0,
+    "failures": 4,
+    "start": "2023-03-10T11:53:00.194Z",
+    "end": "2023-03-10T11:53:00.201Z",
+    "duration": 7
+  },
+  "tests": [
+    {
+      "title": "Adds 1 and 2",
+      "fullTitle": "Calculator Tests Adds 1 and 2",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: calc.add is not a function\n    at Context.<anonymous> (test/Calculator.js:16:19)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "calc.add is not a function"
+      }
+    },
+    {
+      "title": "Add Allows one parameter",
+      "fullTitle": "Calculator Tests Add Allows one parameter",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: calc.add is not a function\n    at Context.<anonymous> (test/Calculator.js:20:16)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "calc.add is not a function"
+      }
+    },
+    {
+      "title": "Add Allows no parameters",
+      "fullTitle": "Calculator Tests Add Allows no parameters",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: calc.add is not a function\n    at Context.<anonymous> (test/Calculator.js:24:16)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "calc.add is not a function"
+      }
+    },
+    {
+      "title": "Add turns strings to zeros",
+      "fullTitle": "Calculator Tests Add turns strings to zeros",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: calc.add is not a function\n    at Context.<anonymous> (test/Calculator.js:28:16)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "calc.add is not a function"
+      }
+    },
+    {
+      "title": "Subtracts 5 from 10",
+      "fullTitle": "Calculator Tests Subtracts 5 from 10",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Subtracts allows one parameter",
+      "fullTitle": "Calculator Tests Subtracts allows one parameter",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Muliply 5 x 2",
+      "fullTitle": "Calculator Tests Muliply 5 x 2",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "6 divided by 3",
+      "fullTitle": "Calculator Tests 6 divided by 3",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Adds 1 and 2",
+      "fullTitle": "Calculator Tests Adds 1 and 2",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: calc.add is not a function\n    at Context.<anonymous> (test/Calculator.js:16:19)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "calc.add is not a function"
+      }
+    },
+    {
+      "title": "Add Allows one parameter",
+      "fullTitle": "Calculator Tests Add Allows one parameter",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: calc.add is not a function\n    at Context.<anonymous> (test/Calculator.js:20:16)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "calc.add is not a function"
+      }
+    },
+    {
+      "title": "Add Allows no parameters",
+      "fullTitle": "Calculator Tests Add Allows no parameters",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: calc.add is not a function\n    at Context.<anonymous> (test/Calculator.js:24:16)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "calc.add is not a function"
+      }
+    },
+    {
+      "title": "Add turns strings to zeros",
+      "fullTitle": "Calculator Tests Add turns strings to zeros",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: calc.add is not a function\n    at Context.<anonymous> (test/Calculator.js:28:16)\n    at process.processImmediate (node:internal/timers:471:21)",
+        "message": "calc.add is not a function"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "Subtracts 5 from 10",
+      "fullTitle": "Calculator Tests Subtracts 5 from 10",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Subtracts allows one parameter",
+      "fullTitle": "Calculator Tests Subtracts allows one parameter",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Muliply 5 x 2",
+      "fullTitle": "Calculator Tests Muliply 5 x 2",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "6 divided by 3",
+      "fullTitle": "Calculator Tests 6 divided by 3",
+      "file": "/home/runner/js-testing-mocha-chai/test/Calculator.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
