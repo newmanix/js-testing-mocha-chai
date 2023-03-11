@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha || true",
+    "test-report": "mocha --reporter json > test-results/mocha.json"
     "coverage": "nyc npm run test"
   },
   "keywords": [],
