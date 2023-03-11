@@ -2,10 +2,10 @@ class Calculator{
 
   constructor()
   {
-	   console.log("Calculator loaded");
+	   console.log("Calculator loaded!");
   }
 
-aadd(num1=0,num2=0){
+add(num1=0,num2=0){
    if(typeof(num1)!== 'number' ||
    typeof(num2)!== 'number'){
      return 0;
