@@ -4,8 +4,7 @@
   "description": "Import this repo to create a starting point for Node.js projects in repl.it, https://replit.com",
   "main": "index.js",
   "scripts": {
-    "test": "mocha || true",
-    "test-report": "mocha --reporter json > test-results/mocha.json",
+    "test": "mocha --reporter json > test-results/mocha.json",
     "coverage": "nyc npm run test"
   },
   "keywords": [],
