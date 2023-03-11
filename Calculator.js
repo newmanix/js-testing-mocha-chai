@@ -2,7 +2,7 @@ class Calculator{
 
   constructor()
   {
-	   console.log("Calculator loaded!");
+	   console.log("Calculator loaded");
   }
 
 add(num1=0,num2=0){
