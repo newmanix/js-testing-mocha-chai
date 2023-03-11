@@ -5,7 +5,7 @@ class Calculator{
 	   console.log("Calculator loaded");
   }
 
-addd(num1=0,num2=0){
+add(num1=0,num2=0){
    if(typeof(num1)!== 'number' ||
    typeof(num2)!== 'number'){
      return 0;
